@@ -1,7 +1,7 @@
-FROM gcr.io/cloud-builders/gcloud-slim@sha256:61871372abbc86a21eae0d5c874df53986014e951bad31a482fee887ea1e21e0
+FROM gcr.io/cloud-builders/gcloud-slim@sha256:5ab8c54ccd2457dbeabf22e904ed62dad255afb9320937217b32e596a5a8029d
 
 LABEL "name"="gcloud"
-LABEL "version"="1.0.2"
+LABEL "version"="1.0.3"
 LABEL "maintainer"="GitHub Actions <support+actions@github.com>"
 
 LABEL "com.github.actions.name"="GitHub Action for Google Cloud"
